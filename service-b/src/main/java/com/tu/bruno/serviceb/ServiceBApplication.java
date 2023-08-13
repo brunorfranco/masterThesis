@@ -24,7 +24,7 @@ public class ServiceBApplication {
 	@Bean
 	public CommandLineRunner CommandLineRunnerBean() {
 		return (args) -> {
-			for (int i = 0; i < 1; i++) {
+			for (int i = 0; i < 10; i++) {
 				randomEntryRepository.save(new RandomEntry(RandomStringUtils.random(15, true, true)));
 			}
 		};
