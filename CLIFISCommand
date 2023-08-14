@@ -1,0 +1,4 @@
+aws fis start-experiment \
+    --experiment-template-id {experiment1} | \
+aws fis start-experiment \
+    --experiment-template-id {experiment2}
