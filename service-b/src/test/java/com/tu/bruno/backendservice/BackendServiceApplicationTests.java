@@ -1,10 +1,10 @@
-package com.tu.bruno.serviceb;
+package com.tu.bruno.backendservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ServiceBApplicationTests {
+class BackendServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

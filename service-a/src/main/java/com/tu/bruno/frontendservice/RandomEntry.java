@@ -1,16 +1,9 @@
-package com.tu.bruno.serviceb.model;
+package com.tu.bruno.frontendservice;
 
-import jakarta.persistence.*;
 
-@Entity
-@Table(name = "RandomEntryTable")
 public class RandomEntry {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
-
-	@Column(name = "randomValue")
 	private String randomValue;
 
 	public RandomEntry(long id, String randomValue) {

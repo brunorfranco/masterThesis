@@ -1,4 +1,4 @@
-package com.tu.bruno.serviceb;
+package com.tu.bruno.backendservice;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.tu.bruno.serviceb.model.RandomEntry;
-import com.tu.bruno.serviceb.repository.RandomEntryRepository;
+import com.tu.bruno.backendservice.model.RandomEntry;
+import com.tu.bruno.backendservice.repository.RandomEntryRepository;
 
 @CrossOrigin(origins = "http://localhost:8081")
 @RestController

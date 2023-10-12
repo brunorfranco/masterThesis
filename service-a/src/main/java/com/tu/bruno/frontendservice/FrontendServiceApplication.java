@@ -1,13 +1,13 @@
-package com.tu.bruno.servicea;
+package com.tu.bruno.frontendservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ServiceAApplication {
+public class FrontendServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServiceAApplication.class, args);
+		SpringApplication.run(FrontendServiceApplication.class, args);
 	}
 
 }
