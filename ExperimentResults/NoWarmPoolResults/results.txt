@@ -1,0 +1,33 @@
+Results:
+NO WARM POOL
+1.
+44	16:29:28.433	Thread Group 1-1	MastersTestAPI	111	Success	651	182	101	0
+134	16:32:07.260	Thread Group 1-1	MastersTestAPI	1017	Success	651	182	1017	0
+
+2.
+44	16:37:21.088	Thread Group 1-1	MastersTestAPI	99	Success	651	182	99	0
+134	16:39:59.916	Thread Group 1-1	MastersTestAPI	885	Success	651	182	885	0
+
+3.
+45	16:44:46.607	Thread Group 1-1	MastersTestAPI	109	Success	651	182	109	0
+70	16:46:14.237	Thread Group 1-1	MastersTestAPI	791	Success	651	182	791	0
+
+4.
+39	16:51:41.303	Thread Group 1-1	MastersTestAPI	99	Success	651	182	99	0
+112	16:54:01.630	Thread Group 1-1	MastersTestAPI	855	Success	651	182	855	0
+
+5.
+45	16:58:59.813	Thread Group 1-1	MastersTestAPI	102	Success	651	182	102	0
+73	17:00:30.580	Thread Group 1-1	MastersTestAPI	755	Success	651	182	753	0
+
+6.
+39	17:05:48.506	Thread Group 1-1	MastersTestAPI	107	Success	657	182	106	0
+129	17:08:27.393	Thread Group 1-1	MastersTestAPI	857	Success	651	182	853	0
+
+7.
+46	17:13:14.345	Thread Group 1-1	MastersTestAPI	103	Success	651	182	103	0
+153	17:16:11.756	Thread Group 1-1	MastersTestAPI	854	Success	651	182	853	0
+
+8.
+46	17:20:24.474	Thread Group 1-1	MastersTestAPI	109	Success	651	182	101	0
+93	17:22:16.195	Thread Group 1-1	MastersTestAPI	873	Success	651	182	871	0
