@@ -1,5 +1,7 @@
 Results:
 RUNNING WARM POOL
+No issues with ELB in-between instance being healthy but java app not yet started
+
 1.
 45	17:37:44.065	Thread Group 1-1	MastersTestAPI	101	Success	651	182	101	0
 92	17:39:35.936	Thread Group 1-1	MastersTestAPI	791	Success	651	182	787	0
