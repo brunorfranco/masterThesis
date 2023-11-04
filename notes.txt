@@ -1,0 +1,64 @@
+Jmeter does allow thread delays, I just hadn't figured it out then
+'Constant timer' config
+I've pushed the test plan to my github under masterThesis
+
+added two paragraphs about ethical considerations, one in the intro and one in conclusion
+Added one paragraph about weaknesses (fis being part of aws ecosystem, hopefully not biased)
+
+
+Also figured out how to setup warm pooling
+planning on running 
+10 times no warm pooling
+10 times stopped
+10 times hibernated
+10 times running 
+
+please confirm if 10 each is enough, 
+given that its best to run them all at once while everything is spun up
+
+FIS tool calls the fault injection 'experiment' so it messes up the flow of the paper
+
+
+----
+Ethics:
+Add a subsection under chapter 3.
+think about data security, how the cloud uses personal information
+Billing
+discourage people to use chaos engineering to bring down services
+
+---
+document oddities on the results (i.e. auto scaling group taking time to spin up the instance between them)
+
+----------
+For the 7th:
+Velepucha paper on microservice applications was fire! Referencing best practice, design patterns, Martin Fowler and Sam Newman
+Dont have IEEE access so couldnt check the other papers sadly
+Found a few one on chaos engineering though https://arxiv.org/pdf/2006.04444.pdf
+	Maximizing Error Injection Realism for Chaos
+	Engineering with System Calls
+DO I Keep the 'Additional reference' at the end of chapter 2, or is this just for my own reading?
+chapter 1.1, is reference correct?
+
+This paper is as close as it gets from ours: https://arxiv.org/pdf/2208.13227.pdf
+On Evaluating Self-Adaptive and Self-Healing Systems using Chaos Engineering
+They did 8 tests (slightly different experiment, 8 difference services, one each)
+
+Monolithic vs. Microservice Architecture: A Performance and Scalability Evaluation
+https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9717259 executed 20 times
+
+Second finding on the paper, percentage of times aws started a single instance, then started a second later
+	there might a configuration reason for this to avoid too many instances
+third finding, ELB outliers percentage
+	only 3 have not thrown error
+forthly, instances took average 15 seconds to stop responding API
+
+suggested further studies:
+variation of number of instances on the pooling in general
+higher number of pooling on stopped to comepete with no pooling numbers
+change health check timers to shorter period
+
+implementation challenge - hibernated instances need to be encrypted
+RUNNING WARM POOL
+confirmed all for running experiments dont have ELB problem
+also more resilient as both running instances get assigned quicker to the ELB while new ones get spun up
+So if a 3rd one goes down, the next one already running

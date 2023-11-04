@@ -1,0 +1,37 @@
+Results:
+RUNNING WARM POOL
+1.
+45	17:37:44.065	Thread Group 1-1	MastersTestAPI	101	Success	651	182	101	0
+92	17:39:35.936	Thread Group 1-1	MastersTestAPI	791	Success	651	182	787	0
+
+2.
+44	17:45:18.922	Thread Group 1-1	MastersTestAPI	123	Success	651	182	123	0
+113	17:47:34.990	Thread Group 1-1	MastersTestAPI	881	Success	651	182	879	0
+
+3.
+44	17:52:46.518	Thread Group 1-1	MastersTestAPI	116	Success	651	182	116	0
+46	17:53:48.744	Thread Group 1-1	MastersTestAPI	969	Success	651	182	968	110
+
+4.
+45	18:02:41.585	Thread Group 1-1	MastersTestAPI	101	Success	651	182	101	0
+47	18:03:43.793	Thread Group 1-1	MastersTestAPI	937	Success	651	182	926	115
+
+5.
+44	18:10:01.389	Thread Group 1-1	MastersTestAPI	109	Success	651	182	109	0
+69	18:11:29.012	Thread Group 1-1	MastersTestAPI	810	Success	651	182	807	0
+
+6.
+39	18:16:43.552	Thread Group 1-1	MastersTestAPI	116	Success	651	182	116	0
+41	18:17:45.765	Thread Group 1-1	MastersTestAPI	900	Success	651	182	900	130
+
+7. OUTLIER TO BE RE-EXECUTED - One of the instances was still booting up the java app - ELB should had taken the two runnign but didnt
+45	18:23:54.892	Thread Group 1-1	MastersTestAPI	107	Success	651	182	107	0
+50	18:25:30.597	Thread Group 1-1	MastersTestAPI	817	Success	651	182	811	0
+
+8. 
+45	18:30:05.661	Thread Group 1-1	MastersTestAPI	106	Success	651	182	106	0
+71	18:31:34.408	Thread Group 1-1	MastersTestAPI	800	Success	651	182	798	0
+
+9.
+45	18:37:05.916	Thread Group 1-1	MastersTestAPI	107	Success	651	182	106	0
+47	18:38:08.136	Thread Group 1-1	MastersTestAPI	944	Success	651	182	935	122
