@@ -1,0 +1,32 @@
+aws fis create-experiment-template \
+    --cli-input-json '{
+        "description": "masterThesisFIS",
+        "targets": {
+                "Instances-Target-1": {
+                        "resourceType": "aws:ec2:instance",
+                        "resourceArns": [
+                                "arn:aws:ec2:us-east-1:096958155378:instance/i-0af9bb976746f2086",
+                                "arn:aws:ec2:us-east-1:096958155378:instance/i-0d68eb309ab0825c9"
+                        ],
+                        "selectionMode": "ALL"
+                }
+        },
+        "actions": {
+                "KillInstance": {
+                        "actionId": "aws:ec2:terminate-instances",
+                        "parameters": {},
+                        "targets": {
+                                "Instances": "Instances-Target-1"
+                        }
+                }
+        },
+        "stopConditions": [
+                {
+                        "source": "none"
+                }
+        ],
+        "roleArn": "arn:aws:iam::096958155378:role/service-role/AWSFISIAMRole-1697652248629",
+        "tags": {
+                "Name": "masterThesisFIS"
+        }
+}'
