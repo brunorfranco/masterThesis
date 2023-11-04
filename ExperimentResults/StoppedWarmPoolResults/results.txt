@@ -1,0 +1,33 @@
+Results:
+STOPPED WARM POOL
+1.
+47	12:21:14.040	Thread Group 1-1	MastersTestAPI	112	Success	651	182	112	0
+92	12:23:53.779	Thread Group 1-1	MastersTestAPI	824	Success	651	182	815	0
+
+2.
+44	14:18:39.652	Thread Group 1-1	MastersTestAPI	102	Success	651	182	101	0
+77	14:20:16.130	Thread Group 1-1	MastersTestAPI	757	Success	651	182	755	0
+
+3.
+44	14:27:41.048	Thread Group 1-1	MastersTestAPI	99	Success	651	182	99	0
+118	14:30:02.658	Thread Group 1-1	MastersTestAPI	864	Success	651	182	861	0
+
+4.
+38	14:36:24.950	Thread Group 1-1	MastersTestAPI	107	Success	651	182	107	0
+70	14:38:00.258	Thread Group 1-1	MastersTestAPI	856	Success	651	182	855	0
+
+5.
+45	14:44:04.283	Thread Group 1-1	MastersTestAPI	101	Success	651	182	101	0
+96	14:46:00.484	Thread Group 1-1	MastersTestAPI	746	Success	651	182	737	0
+
+6. Eager elastic load balancer - instance healthy but app not fully deployed
+39	14:51:21.225	Thread Group 1-1	MastersTestAPI	98	Success	651	182	98	0
+148	14:54:21.301	Thread Group 1-1	MastersTestAPI	842	Success	651	182	835	0
+
+7. Eager elastic load balancer
+45	15:01:16.763	Thread Group 1-1	MastersTestAPI	112	Success	651	182	112	0
+142	15:04:03.782	Thread Group 1-1	MastersTestAPI	737	Success	651	182	736	0
+
+8. Eager elastic load balancer
+44	15:09:03.961	Thread Group 1-1	MastersTestAPI	99	Success	651	182	99	0
+167	15:12:19.420	Thread Group 1-1	MastersTestAPI	843	Success	651	182	832	0
