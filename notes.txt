@@ -58,7 +58,18 @@ higher number of pooling on stopped to comepete with no pooling numbers
 change health check timers to shorter period
 
 implementation challenge - hibernated instances need to be encrypted
+ALMOST GAVE UP ON THIS
+Used Amazon managed KMS EBS key
+Needed to create copy of the AMI but with EBS root volume encrypted: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/hibernating-prerequisites.html
+
 RUNNING WARM POOL
-confirmed all for running experiments dont have ELB problem
+confirmed all for running experiments dont have ELB problem - not really documented anywhere but nice find
+HIBERNATED ALSO WORKS
 also more resilient as both running instances get assigned quicker to the ELB while new ones get spun up
 So if a 3rd one goes down, the next one already running
+
+Conclusion:
+If one is looking for full resiliency, invest in more redundancy
+
+result limitations:
+application with longer start-up time could present different results
