@@ -1,0 +1,33 @@
+Results:
+HIBERNATED WARM POOL
+
+1.
+405 50 7 51 235
+
+2.
+450 51 9 48 272
+
+3.
+448 50 8 46 62
+
+4.
+428 50 8 38 60 
+
+5.
+410 51 9 46 128 
+
+6.
+424 51 8 39 90
+
+7. 
+423 48 8 56 152
+
+8.
+455 51 7 83 246
+
+AVERAGE:
+Download 430.375
+Update 50.25
+Ping latency 8
+Download latency 50.875
+Upload latency 155.625

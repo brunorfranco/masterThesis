@@ -33,24 +33,20 @@ document oddities on the results (i.e. auto scaling group taking time to spin up
 For the 7th:
 Velepucha paper on microservice applications was fire! Referencing best practice, design patterns, Martin Fowler and Sam Newman
 Dont have IEEE access so couldnt check the other papers sadly
-Found a few one on chaos engineering though https://arxiv.org/pdf/2006.04444.pdf
-	Maximizing Error Injection Realism for Chaos
-	Engineering with System Calls
+Found a new one on chaos engineering though https://arxiv.org/pdf/2006.04444.pdf
+	Maximizing Error Injection Realism for Chaos Engineering with System Calls
 DO I Keep the 'Additional reference' at the end of chapter 2, or is this just for my own reading?
-chapter 1.1, is reference correct?
+chapter 1.1, chapter 3 experiment is reference correct?
 
 This paper is as close as it gets from ours: https://arxiv.org/pdf/2208.13227.pdf
-On Evaluating Self-Adaptive and Self-Healing Systems using Chaos Engineering
+	On Evaluating Self-Adaptive and Self-Healing Systems using Chaos Engineering
 They did 8 tests (slightly different experiment, 8 difference services, one each)
 
-Monolithic vs. Microservice Architecture: A Performance and Scalability Evaluation
-https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9717259 executed 20 times
-
-Second finding on the paper, percentage of times aws started a single instance, then started a second later
+Aws started a single instance, then started a second later
 	there might a configuration reason for this to avoid too many instances
-third finding, ELB outliers percentage
-	only 3 have not thrown error
-forthly, instances took average 15 seconds to stop responding API
+second finding, ELB outliers percentage
+	if running instance or hibernated, no errors when adding second instance to ELB
+third, instances took average 15 seconds to stop responding API from when injection happen
 
 suggested further studies:
 variation of number of instances on the pooling in general
@@ -73,3 +69,5 @@ If one is looking for full resiliency, invest in more redundancy
 
 result limitations:
 application with longer start-up time could present different results
+
+https://datetimecalculator.net/time-calculator
