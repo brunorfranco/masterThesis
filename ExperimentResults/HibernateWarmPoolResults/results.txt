@@ -4,31 +4,41 @@ HIBERNATED WARM POOL
 1.
 44	18:08:25.344	Thread Group 1-1	MastersTestAPI	106	Success	651	182	106	0
 65	18:09:48.567	Thread Group 1-1	MastersTestAPI	3018	Success	651	182	3013	0
+Delta: 1:23.223
 
 2.
 40	18:15:08.020	Thread Group 1-1	MastersTestAPI	104	Success	657	182	104	0
 126	18:17:42.913	Thread Group 1-1	MastersTestAPI	5787	Success	651	182	5786	0
+Delta: 2:34.893
 
 3.
 43	18:22:12.935	Thread Group 1-1	MastersTestAPI	104	Success	651	182	103	0
 74	18:23:47.238	Thread Group 1-1	MastersTestAPI	4842	Success	651	182	4833	0
+Delta: 1:34.303
 
 4.
 44	18:29:12.944	Thread Group 1-1	MastersTestAPI	102	Success	651	182	102	0
 126	18:31:43.360	Thread Group 1-1	MastersTestAPI	2426	Success	651	182	2426	0
+Delta: 2:30.416
 
 5.
 45	18:39:44.713	Thread Group 1-1	MastersTestAPI	100	Success	651	182	100	0
 105	18:41:51.029	Thread Group 1-1	MastersTestAPI	3989	Success	651	182	3986	0
+Delta: 2:06.316
 
 6.
 39	18:46:36.257	Thread Group 1-1	MastersTestAPI	105	Success	657	182	105	0
 74	18:48:14.913	Thread Group 1-1	MastersTestAPI	706	Success	651	182	700	0
+Delta: 1:38.656
 
 7. 
 46	18:54:54.811	Thread Group 1-1	MastersTestAPI	106	Success	651	182	106	0
 48	18:55:57.026	Thread Group 1-1	MastersTestAPI	4717	Success	651	182	4717	123
+Delta: 1:02.215
 
 8.
 42	19:01:58.829	Thread Group 1-1	MastersTestAPI	105	Success	651	182	105	0
 90	19:03:51.875	Thread Group 1-1	MastersTestAPI	2292	Success	651	182	2284	0
+Delta: 1:53.046
+
+AVERAGE: 1:80.383
