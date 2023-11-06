@@ -41,4 +41,4 @@ Delta: 1:02.215
 90	19:03:51.875	Thread Group 1-1	MastersTestAPI	2292	Success	651	182	2284	0
 Delta: 1:53.046
 
-AVERAGE: 1:80.383
+AVERAGE: 1:50.383
