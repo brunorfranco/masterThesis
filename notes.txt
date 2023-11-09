@@ -48,12 +48,12 @@ second finding, ELB outliers percentage
 	if running instance or hibernated, no errors when adding second instance to ELB
 third, instances took average 15 seconds to stop responding API from when injection happen
 
-suggested further studies:
+suggested further studies for conclusion section:
 variation of number of instances on the pooling in general
 higher number of pooling on stopped to comepete with no pooling numbers
 change health check timers to shorter period
 
-implementation challenge - hibernated instances need to be encrypted
+implementation challenge - hibernated instances needed to have their block storage encrypted
 ALMOST GAVE UP ON THIS
 Used Amazon managed KMS EBS key
 Needed to create copy of the AMI but with EBS root volume encrypted: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/hibernating-prerequisites.html
