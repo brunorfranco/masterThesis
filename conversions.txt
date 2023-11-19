@@ -1,0 +1,50 @@
+1.	No warm pooling recovery time: 02:15.549
+2.	Stopped warm pooling recovery time: 02:23.986
+3.	Hibernated warm pooling recovery time: 01:50.383
+4.	Running warm pooling recovery time: 01:24.147
+
+No Warm Pooling in seconds
+1. 159
+2. 159
+3. 88
+4. 140
+5. 91
+6. 159
+7. 177
+8. 112
+
+Stopped Warm Pooling in seconds
+1. 160
+2. 96
+3. 142
+4. 95
+5. 116
+6. 180
+7. 167
+8. 195
+
+Hibernated Warm Pooling in seconds
+1. 83
+2. 155
+3. 94
+4. 150
+5. 126
+6. 99
+7. 62
+8. 113
+
+Running Warm Pooling in seconds
+1. 112
+2. 136
+3. 62
+4. 62
+5. 88
+6. 62
+7. 89
+8. 62
+
+Overall Time to seconds
+1. 136
+2. 144
+3. 110
+4. 84
