@@ -48,3 +48,15 @@ Overall Time to seconds
 2. 144
 3. 110
 4. 84
+
+No warm pooling comparison:
+5.88% faster than stopped
+23.64% slower than hibernated
+61.9% slower than running
+
+Stopped warm pooling comparison:
+30.91% slower than hibernated
+71.43% slower than running
+
+Hibernated warm pooling comparison:
+30.95% slower than running
