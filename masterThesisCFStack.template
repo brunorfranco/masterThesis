@@ -1,0 +1,130 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Metadata": {
+        "AWS::CloudFormation::Designer": {
+            "8dc98525-17a5-44ac-a8f9-161c0a05e931": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 309,
+                    "y": 125
+                },
+                "z": 0,
+                "dependson": [
+                    "7f9d2fd2-0458-4411-a409-5b23bd1eaab8",
+                    "398572c8-ce82-4a2b-a633-33fa623fd47d"
+                ]
+            },
+            "750ae05f-ea62-49c0-bf0b-1432b2f15ac5": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 140,
+                    "y": 185
+                },
+                "z": 0,
+                "dependson": [
+                    "8dc98525-17a5-44ac-a8f9-161c0a05e931"
+                ]
+            },
+            "398572c8-ce82-4a2b-a633-33fa623fd47d": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 488,
+                    "y": 82
+                },
+                "z": 0
+            },
+            "7f9d2fd2-0458-4411-a409-5b23bd1eaab8": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 90,
+                    "y": 60
+                },
+                "z": 0
+            },
+            "3a6e740e-ff70-49c8-afea-6737d0868b69": {
+                "source": {
+                    "id": "750ae05f-ea62-49c0-bf0b-1432b2f15ac5"
+                },
+                "target": {
+                    "id": "8dc98525-17a5-44ac-a8f9-161c0a05e931"
+                },
+                "z": 4
+            },
+            "05917b50-5591-4e51-b09a-eae30fe71e19": {
+                "source": {
+                    "id": "8dc98525-17a5-44ac-a8f9-161c0a05e931"
+                },
+                "target": {
+                    "id": "7f9d2fd2-0458-4411-a409-5b23bd1eaab8"
+                },
+                "z": 5
+            },
+            "f7c850f3-5042-48ff-951e-17b988fde5c0": {
+                "source": {
+                    "id": "8dc98525-17a5-44ac-a8f9-161c0a05e931"
+                },
+                "target": {
+                    "id": "398572c8-ce82-4a2b-a633-33fa623fd47d"
+                },
+                "z": 6
+            }
+        }
+    },
+    "Resources": {
+        "EC2KP18BOE": {
+            "Type": "AWS::EC2::KeyPair",
+            "Properties": {},
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "8dc98525-17a5-44ac-a8f9-161c0a05e931"
+                }
+            },
+            "DependsOn": [
+                "ASASG22MUZ",
+                "ELBV2LB2U5AL"
+            ]
+        },
+        "EC2LT2WSZK": {
+            "Type": "AWS::EC2::LaunchTemplate",
+            "Properties": {},
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "750ae05f-ea62-49c0-bf0b-1432b2f15ac5"
+                }
+            },
+            "DependsOn": [
+                "EC2KP18BOE"
+            ]
+        },
+        "ELBV2LB2U5AL": {
+            "Type": "AWS::ElasticLoadBalancingV2::LoadBalancer",
+            "Properties": {},
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "398572c8-ce82-4a2b-a633-33fa623fd47d"
+                }
+            }
+        },
+        "ASASG22MUZ": {
+            "Type": "AWS::AutoScaling::AutoScalingGroup",
+            "Properties": {},
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "7f9d2fd2-0458-4411-a409-5b23bd1eaab8"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+Second instance was added to the elastic load balancer before it finished booting up, so it was throwing error for a few HTTP calls
