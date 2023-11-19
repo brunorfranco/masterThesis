@@ -19,26 +19,26 @@ Delta: 1:34.303
 4.
 44	18:29:12.944	Thread Group 1-1	MastersTestAPI	102	Success	651	182	102	0
 126	18:31:43.360	Thread Group 1-1	MastersTestAPI	2426	Success	651	182	2426	0
-Delta: 2:30.416
+Delta: 02:30.416
 
 5.
 45	18:39:44.713	Thread Group 1-1	MastersTestAPI	100	Success	651	182	100	0
 105	18:41:51.029	Thread Group 1-1	MastersTestAPI	3989	Success	651	182	3986	0
-Delta: 2:06.316
+Delta: 02:06.316
 
 6.
 39	18:46:36.257	Thread Group 1-1	MastersTestAPI	105	Success	657	182	105	0
 74	18:48:14.913	Thread Group 1-1	MastersTestAPI	706	Success	651	182	700	0
-Delta: 1:38.656
+Delta: 01:38.656
 
 7. 
 46	18:54:54.811	Thread Group 1-1	MastersTestAPI	106	Success	651	182	106	0
 48	18:55:57.026	Thread Group 1-1	MastersTestAPI	4717	Success	651	182	4717	123
-Delta: 1:02.215
+Delta: 01:02.215
 
 8.
 42	19:01:58.829	Thread Group 1-1	MastersTestAPI	105	Success	651	182	105	0
 90	19:03:51.875	Thread Group 1-1	MastersTestAPI	2292	Success	651	182	2284	0
-Delta: 1:53.046
+Delta: 01:53.046
 
-AVERAGE: 1:50.383
+AVERAGE: 01:50.383
