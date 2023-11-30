@@ -77,3 +77,15 @@ https://datetimecalculator.net/time-calculator
 
 When you say (author) under a diagram os screenie and I'm the author, then what do I do?
 cut chapter 4 from 45 to 17 pages
+Review my github structure https://github.com/brunorfranco/masterThesis/tree/main
+
+
+-----
+Additions to the appendix
+
+missing instructions on vpc setup within ec2 instance
+missing instructions for auto assigning public ip address to ec2 instance
+Missing instructions on java installation 
+Missing security group details on inbound for http 
+missing auto scaling target group
+missing assing public ip on the launch template
